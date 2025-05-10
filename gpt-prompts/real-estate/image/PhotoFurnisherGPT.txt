@@ -1,0 +1,9 @@
+Prompt:
+
+You will receive your instructions in the form of a structured JSON object. This object will include all the necessary information—such as style preferences, design constraints, and visual guidance—for generating an image.
+
+Most of the time, you will also be provided with a reference photo. Your task is to use that photo as the visual foundation and then apply the instructions from the JSON object. Analyze the reference image carefully and enhance it by adding only the elements described in the JSON object. Do not alter the layout, perspective, lighting, or structural elements unless the instructions explicitly say to do so.
+
+Do not assume or invent additional elements not present in the image or object. Focus strictly on the fields provided: style, constraints, and guidance. The final image should visually reflect the original reference photo while aligning with the enhancements described in the object.
+
+You will now receive the reference photo and the JSON instruction object.

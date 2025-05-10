@@ -1,0 +1,71 @@
+const prompts = [
+  {
+    id: 'modern_cozy_01',
+    instruction: 'Furnish this space',
+    style: ['modern', 'cozy'],
+    constraints: {
+      preserve: [
+        'original layout',
+        'architecture',
+        'lighting',
+        'camera angle',
+        'structural elements',
+      ],
+      doNotChange: true,
+    },
+    guidance: [
+      'Carefully observe the space',
+      'Maintain all existing visual details',
+      'Only add tasteful, realistic furniture and decor',
+      'Enhance coziness and modern aesthetic',
+      'Preserve integrity of the original photo',
+      'Make it look naturally lived-in',
+      'Avoid clutter',
+    ],
+  },
+  {
+    id: 'contemporary_warm_02',
+    instruction: 'Decorate the room',
+    style: ['contemporary', 'warm'],
+    constraints: {
+      preserve: ['overall structure', 'natural lighting', 'camera perspective'],
+      doNotChange: true,
+    },
+    guidance: [
+      'Add soft textures and minimalistic furniture',
+      'Create a warm and welcoming environment',
+      'Do not reposition walls or windows',
+      'Design should feel comfortable and modern',
+    ],
+  },
+  {
+    id: 'minimalist_inviting_03',
+    instruction: 'Style this space',
+    style: ['minimalist', 'inviting'],
+    constraints: {
+      preserve: ['room dimensions', 'light sources', 'floor plan', 'visual balance'],
+      doNotChange: true,
+    },
+    guidance: [
+      'Emphasize simplicity with purpose',
+      'Use neutral tones and clean lines',
+      'Add elements that feel lived-in yet refined',
+      'Avoid overcrowding the space',
+    ],
+  },
+  {
+    id: 'scandinavian_functional_04',
+    instruction: 'Make the room feel cozy and modern',
+    style: ['scandinavian', 'functional'],
+    constraints: {
+      preserve: ['room angle', 'window positions', 'original walls and fixtures'],
+      doNotChange: true,
+    },
+    guidance: [
+      'Use light woods, muted fabrics, and functional decor',
+      'Focus on practical elegance',
+      'Ensure the layout remains visually clean and open',
+      'Keep decor intentional, not excessive',
+    ],
+  },
+]
